@@ -1,0 +1,41 @@
+{
+  "name": "trail-stearns-client",
+  "version": "1.0.0",
+  "description": "source code for www.trailstearns.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jsheridanwells/trail-stearns-client.git"
+  },
+  "author": "Jeremy Sheridan Wells",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsheridanwells/trail-stearns-client/issues"
+  },
+  "homepage": "https://github.com/jsheridanwells/trail-stearns-client#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "grunt": "^1.0.3",
+    "jquery": "^3.3.1",
+    "matchdep": "^2.0.0"
+  },
+  "devDependencies": {
+    "concat": "^1.0.3",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-processhtml": "^0.4.1",
+    "grunt-run": "^0.8.1",
+    "grunt-sass-lint": "^0.2.4",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "sass": "^1.6.1"
+  }
+}
