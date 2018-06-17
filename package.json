@@ -17,13 +17,22 @@
   },
   "homepage": "https://github.com/jsheridanwells/trail-stearns-client#readme",
   "dependencies": {
+    "angular": "^1.7.2",
+    "angular-route": "^1.7.2",
+    "angular-ui-bootstrap": "^2.5.6",
     "bootstrap": "^4.1.1",
     "grunt": "^1.0.3",
     "jquery": "^3.3.1",
-    "matchdep": "^2.0.0"
+    "matchdep": "^2.0.0",
+    "popper.js": "^1.14.3"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "browserify": "^16.2.2",
     "concat": "^1.0.3",
+    "grunt-babel": "^7.0.0",
+    "grunt-browserify": "^5.3.0",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-connect": "^1.0.2",
     "grunt-contrib-cssmin": "^2.2.1",
@@ -31,6 +40,7 @@
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-uglify": "^3.3.0",
     "grunt-contrib-watch": "^1.1.0",
+    "grunt-ng-annotate": "^3.0.0",
     "grunt-processhtml": "^0.4.1",
     "grunt-run": "^0.8.1",
     "grunt-sass-lint": "^0.2.4",

@@ -3,10 +3,11 @@ module.exports = {
       browser: true,
       devel: true,
       esversion: 6,
-      jquery: true,
       node: true,
       reporter: require('jshint-stylish'),
-      predef: [],
+      predef: [
+        'angular'
+      ],
     },
     build: {
       options: {
