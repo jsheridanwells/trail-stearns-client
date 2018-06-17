@@ -1,6 +1,6 @@
 module.exports = {
   js: {
-    src: ['./src/js/**/*.js'],
+    src: ['./src/**/*.js'],
     dest: './src/hold-js/browserified.js'
   },
   options: {

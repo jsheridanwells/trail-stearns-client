@@ -5,7 +5,7 @@ module.exports = {
     },
     target: {
       files: {
-        './dist/main.min.css': ['./src/css/**/*.css']
+        './dist/main.min.css': ['./src/css/**/*.css', '.src/vendor/**/*.css']
       }
     }
 };
