@@ -4,6 +4,7 @@ module.exports = {
     dest: './src/hold-js/browserified.js'
   },
   options: {
-    paths: ["./node_modules"]
+    paths: ["./node_modules"],
+    exclude: ['./src/vendor/popper.js']
   }
 };
